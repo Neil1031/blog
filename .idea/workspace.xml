@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f696fd6-4ceb-444f-8e6b-81dc5c549eb9" name="Default Changelist" comment="" />
+    <list default="true" id="2f696fd6-4ceb-444f-8e6b-81dc5c549eb9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/front-end/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/blog/NeilsBlog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/blog/login/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/blog/login/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,10 +32,48 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="NeilsBlog" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\WorkSpace\NeilsBlog\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="242ai2hcSaCwi6e2YN8MDLSOE6B" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,7 +82,178 @@
     <option name="showModules" value="false" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DA105" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.blog.NeilsBlog" />
+      <module name="NeilsBlog.main" />
+      <shortenClasspath name="MANIFEST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NeilsBlog [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="bootRun" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="NeilsBlog [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="NeilsBlog [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="NeilsBlog [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'NeilsBlog'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests *" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY" nameIsGenerated="true">
+      <option name="adminPort" value="8005" />
+      <option name="contextPath" value="/NeilsBlog" />
+      <option name="docBase" value="C:\WorkSpace\NeilsBlog\src\main" />
+      <option name="envOptions" />
+      <option name="passParentEnvironmentVariables" value="true" />
+      <option name="port" value="8081" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat 9.0.24" />
+          <option name="number" value="0" />
+          <option name="path" value="C:\Workspace\apache-tomcat-9.0.24" />
+          <option name="version" value="9.0.24.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY">
+      <option name="adminPort" value="8005" />
+      <option name="contextPath" value="" />
+      <option name="docBase" value="" />
+      <option name="envOptions" />
+      <option name="passParentEnvironmentVariables" value="true" />
+      <option name="port" value="8092" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat 9.0.24" />
+          <option name="number" value="0" />
+          <option name="path" value="C:\Workspace\apache-tomcat-9.0.24" />
+          <option name="version" value="9.0.24.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Application" />
+      <item itemvalue="Gradle.NeilsBlog [build]" />
+      <item itemvalue="Gradle.NeilsBlog [clean]" />
+      <item itemvalue="Gradle.NeilsBlog [dependencies]" />
+      <item itemvalue="Gradle.NeilsBlog [bootRun]" />
+      <item itemvalue="Gradle.Tests in 'NeilsBlog'" />
+      <item itemvalue="Smart Tomcat.Unnamed" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tests in 'NeilsBlog'" />
+        <item itemvalue="Gradle.NeilsBlog [bootRun]" />
+        <item itemvalue="Gradle.NeilsBlog [dependencies]" />
+        <item itemvalue="Gradle.NeilsBlog [clean]" />
+        <item itemvalue="Gradle.NeilsBlog [build]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -38,5 +267,73 @@
       <updated>1642831258513</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="333" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1695424027663">
+      <screen x="0" y="0" width="1755" height="1057" />
+    </state>
+    <state x="333" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1755.1057@0.0.1755.1057" timestamp="1695424027663" />
+    <state width="729" height="466" key="DebuggerActiveHint" timestamp="1695430742634">
+      <screen x="0" y="0" width="1755" height="1057" />
+    </state>
+    <state width="729" height="466" key="DebuggerActiveHint/0.0.1755.1057@0.0.1755.1057" timestamp="1695430742634" />
+    <state x="658" y="283" key="FileChooserDialogImpl" timestamp="1695425091693">
+      <screen x="0" y="0" width="1755" height="1057" />
+    </state>
+    <state x="658" y="283" key="FileChooserDialogImpl/0.0.1755.1057@0.0.1755.1057" timestamp="1695425091693" />
+    <state width="1109" height="340" key="GridCell.Tab.0.bottom" timestamp="1695430876131">
+      <screen x="0" y="0" width="1755" height="1057" />
+    </state>
+    <state width="1109" height="340" key="GridCell.Tab.0.bottom/0.0.1755.1057@0.0.1755.1057" timestamp="1695430876131" />
+    <state width="1109" height="340" key="GridCell.Tab.0.center" timestamp="1695430876130">
+      <screen x="0" y="0" width="1755" height="1057" />
+    </state>
+    <state width="1109" height="340" key="GridCell.Tab.0.center/0.0.1755.1057@0.0.1755.1057" timestamp="1695430876130" />
+    <state width="1109" height="340" key="GridCell.Tab.0.left" timestamp="1695430876130">
+      <screen x="0" y="0" width="1755" height="1057" />
+    </state>
+    <state width="1109" height="340" key="GridCell.Tab.0.left/0.0.1755.1057@0.0.1755.1057" timestamp="1695430876130" />
+    <state width="1109" height="340" key="GridCell.Tab.0.right" timestamp="1695430876131">
+      <screen x="0" y="0" width="1755" height="1057" />
+    </state>
+    <state width="1109" height="340" key="GridCell.Tab.0.right/0.0.1755.1057@0.0.1755.1057" timestamp="1695430876131" />
+    <state width="1109" height="340" key="GridCell.Tab.1.bottom" timestamp="1695430876130">
+      <screen x="0" y="0" width="1755" height="1057" />
+    </state>
+    <state width="1109" height="340" key="GridCell.Tab.1.bottom/0.0.1755.1057@0.0.1755.1057" timestamp="1695430876130" />
+    <state width="1109" height="340" key="GridCell.Tab.1.center" timestamp="1695430876128">
+      <screen x="0" y="0" width="1755" height="1057" />
+    </state>
+    <state width="1109" height="340" key="GridCell.Tab.1.center/0.0.1755.1057@0.0.1755.1057" timestamp="1695430876128" />
+    <state width="1109" height="340" key="GridCell.Tab.1.left" timestamp="1695430876128">
+      <screen x="0" y="0" width="1755" height="1057" />
+    </state>
+    <state width="1109" height="340" key="GridCell.Tab.1.left/0.0.1755.1057@0.0.1755.1057" timestamp="1695430876128" />
+    <state width="1109" height="340" key="GridCell.Tab.1.right" timestamp="1695430876129">
+      <screen x="0" y="0" width="1755" height="1057" />
+    </state>
+    <state width="1109" height="340" key="GridCell.Tab.1.right/0.0.1755.1057@0.0.1755.1057" timestamp="1695430876129" />
+    <state x="379" y="170" key="SettingsEditor" timestamp="1695423132198">
+      <screen x="0" y="0" width="1755" height="1057" />
+    </state>
+    <state x="379" y="170" key="SettingsEditor/0.0.1755.1057@0.0.1755.1057" timestamp="1695423132198" />
+    <state x="266" y="129" key="new project wizard" timestamp="1695426416877">
+      <screen x="0" y="0" width="1755" height="1057" />
+    </state>
+    <state x="266" y="129" key="new project wizard/0.0.1755.1057@0.0.1755.1057" timestamp="1695426416877" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/blog/login/LoginController.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
