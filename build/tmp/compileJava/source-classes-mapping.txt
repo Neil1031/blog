@@ -1,3 +1,5 @@
+com/blog/login/model/Content.java
+ com.blog.login.model.Content
 com/blog/NeilsBlog.java
  com.blog.NeilsBlog
 com/blog/login/RegisterController.java

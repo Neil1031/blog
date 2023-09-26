@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2f696fd6-4ceb-444f-8e6b-81dc5c549eb9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/front-end/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/blog/NeilsBlog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/blog/login/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/blog/login/RegisterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/gc.properties" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/blog/login/model/Content.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.9.2/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9.2/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.9.2/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9.2/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.9.2/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9.2/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.9.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.9.2/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9.2/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.9.2/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.9.2/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/front-end/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/front-end/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/blog/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/blog/login/LoginController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +42,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="NeilsBlog" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -55,8 +52,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -70,6 +67,9 @@
       </set>
     </option>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="242ai2hcSaCwi6e2YN8MDLSOE6B" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -77,20 +77,19 @@
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showModules" value="false" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DA105" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/WorkSpace/DA105",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  }
+}]]></component>
   <component name="RunManager" selected="Application.Application">
     <configuration name="Application" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.blog.NeilsBlog" />
@@ -116,7 +115,10 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="NeilsBlog [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -135,7 +137,10 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="NeilsBlog [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -154,7 +159,10 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="NeilsBlog [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -173,7 +181,10 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="Tests in 'NeilsBlog'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -193,14 +204,19 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
     <configuration name="Unnamed" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY" nameIsGenerated="true">
       <option name="adminPort" value="8005" />
       <option name="contextPath" value="/NeilsBlog" />
-      <option name="docBase" value="C:\WorkSpace\NeilsBlog\src\main" />
-      <option name="envOptions" />
+      <option name="docBase" value="C:\WorkSpace\NeilsBlog\src\main\front-end" />
+      <option name="envOptions">
+        <map />
+      </option>
       <option name="passParentEnvironmentVariables" value="true" />
       <option name="port" value="8081" />
       <option name="tomcatInfo">
@@ -255,6 +271,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -271,67 +288,13 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="333" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1695424027663">
-      <screen x="0" y="0" width="1755" height="1057" />
-    </state>
-    <state x="333" y="183" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1755.1057@0.0.1755.1057" timestamp="1695424027663" />
-    <state width="729" height="466" key="DebuggerActiveHint" timestamp="1695430742634">
-      <screen x="0" y="0" width="1755" height="1057" />
-    </state>
-    <state width="729" height="466" key="DebuggerActiveHint/0.0.1755.1057@0.0.1755.1057" timestamp="1695430742634" />
-    <state x="658" y="283" key="FileChooserDialogImpl" timestamp="1695425091693">
-      <screen x="0" y="0" width="1755" height="1057" />
-    </state>
-    <state x="658" y="283" key="FileChooserDialogImpl/0.0.1755.1057@0.0.1755.1057" timestamp="1695425091693" />
-    <state width="1109" height="340" key="GridCell.Tab.0.bottom" timestamp="1695430876131">
-      <screen x="0" y="0" width="1755" height="1057" />
-    </state>
-    <state width="1109" height="340" key="GridCell.Tab.0.bottom/0.0.1755.1057@0.0.1755.1057" timestamp="1695430876131" />
-    <state width="1109" height="340" key="GridCell.Tab.0.center" timestamp="1695430876130">
-      <screen x="0" y="0" width="1755" height="1057" />
-    </state>
-    <state width="1109" height="340" key="GridCell.Tab.0.center/0.0.1755.1057@0.0.1755.1057" timestamp="1695430876130" />
-    <state width="1109" height="340" key="GridCell.Tab.0.left" timestamp="1695430876130">
-      <screen x="0" y="0" width="1755" height="1057" />
-    </state>
-    <state width="1109" height="340" key="GridCell.Tab.0.left/0.0.1755.1057@0.0.1755.1057" timestamp="1695430876130" />
-    <state width="1109" height="340" key="GridCell.Tab.0.right" timestamp="1695430876131">
-      <screen x="0" y="0" width="1755" height="1057" />
-    </state>
-    <state width="1109" height="340" key="GridCell.Tab.0.right/0.0.1755.1057@0.0.1755.1057" timestamp="1695430876131" />
-    <state width="1109" height="340" key="GridCell.Tab.1.bottom" timestamp="1695430876130">
-      <screen x="0" y="0" width="1755" height="1057" />
-    </state>
-    <state width="1109" height="340" key="GridCell.Tab.1.bottom/0.0.1755.1057@0.0.1755.1057" timestamp="1695430876130" />
-    <state width="1109" height="340" key="GridCell.Tab.1.center" timestamp="1695430876128">
-      <screen x="0" y="0" width="1755" height="1057" />
-    </state>
-    <state width="1109" height="340" key="GridCell.Tab.1.center/0.0.1755.1057@0.0.1755.1057" timestamp="1695430876128" />
-    <state width="1109" height="340" key="GridCell.Tab.1.left" timestamp="1695430876128">
-      <screen x="0" y="0" width="1755" height="1057" />
-    </state>
-    <state width="1109" height="340" key="GridCell.Tab.1.left/0.0.1755.1057@0.0.1755.1057" timestamp="1695430876128" />
-    <state width="1109" height="340" key="GridCell.Tab.1.right" timestamp="1695430876129">
-      <screen x="0" y="0" width="1755" height="1057" />
-    </state>
-    <state width="1109" height="340" key="GridCell.Tab.1.right/0.0.1755.1057@0.0.1755.1057" timestamp="1695430876129" />
-    <state x="379" y="170" key="SettingsEditor" timestamp="1695423132198">
-      <screen x="0" y="0" width="1755" height="1057" />
-    </state>
-    <state x="379" y="170" key="SettingsEditor/0.0.1755.1057@0.0.1755.1057" timestamp="1695423132198" />
-    <state x="266" y="129" key="new project wizard" timestamp="1695426416877">
-      <screen x="0" y="0" width="1755" height="1057" />
-    </state>
-    <state x="266" y="129" key="new project wizard/0.0.1755.1057@0.0.1755.1057" timestamp="1695426416877" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/blog/login/LoginController.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="2" />
+          <line>31</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

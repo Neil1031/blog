@@ -33,9 +33,10 @@
 <!--</form>-->
 
 <h1>Classic editor</h1>
-<form action="http://localhost:8090" method="post">
-        <textarea name="content" id="editor">
-            &lt;p&gt;This is some sample content.&lt;/p&gt;
+<form action="http://localhost:8090/" method="post">
+    Subject
+    <input name="subject"></input>
+        <textarea name="content" id="editor" value="aaaaa">
         </textarea>
     <p><input type="submit" value="Submit"></p>
 </form>
@@ -45,12 +46,30 @@
             .catch( error => {
                 console.error( error );
             } );
-let editor;
+            let editor;
             document.querySelector( '#submit' ).addEventListener( 'click', () => {
     const editorData = editor.getData();
 
 
 } );
+
+<!--     $(document).ready(function () {-->
+<!--            $("#submit").click(function () {-->
+<!--                $.ajax({-->
+<!--                    url: "/test/",-->
+<!--                    type: "POST",-->
+<!--                    data:   {-->
+<!--                        text: 'aaa'-->
+<!--                    },-->
+<!--                    success: function (data) {-->
+<!--                        $("#textArea").text("收到消息: " + data.text);-->
+<!--                    },-->
+<!--                    error: function () {-->
+<!--                        $("#textArea").text("獲取消息失敗");-->
+<!--                    }-->
+<!--                });-->
+<!--            });-->
+<!--        });-->
     </script>
 </body>
 </html>

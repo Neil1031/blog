@@ -1,24 +1,30 @@
 package com.blog.login;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpRequest;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @RestController
 public class LoginController extends HttpServlet {
     @Autowired
     private NamedParameterJdbcTemplate jdbc;
     @RequestMapping("/")
-    public List hello(HttpServletRequest request) {
-        return jdbc.queryForList("SELECT * FROM BL_TB_MEMBER", new HashMap<>());
+    public void doPost(HttpServletRequest request, HttpServletResponse res) {
+        String subject = request.getParameter("subject");
+        String content = request.getParameter("content");
+        System.out.println("aaa");
+        Map<String, Object> args = new HashMap<>();
+        args.put("SUBJECT", subject);
+        args.put("CONTENT", content);
+        jdbc.update("INSERT INTO ARTICLE (SUBJECT, CONTENT) VALUES (:SUBJECT, :CONTENT)", args);
     }
 
     @RequestMapping("/insertArticle")
