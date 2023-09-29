@@ -3,5 +3,8 @@ spring:
     url: jdbc:oracle:thin:@localhost:49161:XE
     username: system
     password: oracle
+  thymeleaf:
+    prefix: classpath:/front_end/
+    suffix: .html
 server:
   port: 8090

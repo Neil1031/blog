@@ -1,8 +1,10 @@
-com/blog/login/model/Content.java
- com.blog.login.model.Content
 com/blog/NeilsBlog.java
  com.blog.NeilsBlog
 com/blog/login/RegisterController.java
  com.blog.login.RegisterController
-com/blog/login/LoginController.java
- com.blog.login.LoginController
+com/blog/login/model/Article.java
+ com.blog.login.model.Article
+com/blog/config.java
+ com.blog.config
+com/blog/login/ArticleController.java
+ com.blog.login.ArticleController

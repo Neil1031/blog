@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+	<head>
+		<meta charset="utf-8">
+		<title>CKEditor 5 – Classic editor</title>
+		<script src="https://cdn.ckeditor.com/ckeditor5/39.0.2/classic/ckeditor.js"></script>
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	</head>
+	<body>
+		<h1>Classic editor</h1>
+		Subjectccc
+		<form method="post" action="http://localhost:8090/login">
+		<p th:text="'Hello, ' + ${test} + '!'"></p>
+		<input id="subject" name="subject">
+		<textarea name="content" id="editor">
+        </textarea>
+		<button id="submit" type="submit" value="Submit">Submit</button>
+		</form>
+		<div class="container" id="post" >
+			<b align="left" >文章內容 : </b>
+			<textarea name="art_content">aaa</textarea>
+		</div>
+		<script src="./ckeditor/ckeditor.js">
+
+		</script>
+<!--		<script>-->
+<!--			CKEDITOR.replace('#art_content',{height:['500px']});-->
+<!--		</script>-->
+		<script>
+			ClassicEditor
+				.create( document.querySelector( '#editor' ) )
+				.catch( error => {
+					console.error( error );
+				} );
+
+
+		$(document).ready(function () {
+<!--		let editor;-->
+<!--				document.querySelector( '#submit' ).addEventListener( 'click', () => {-->
+<!--				const editorData = editor.getData();-->
+
+			$("#submit").click(function () {
+
+				$.ajax({
+						url: 'http://localhost:8090/login',
+						type: "POST",
+						data:  {
+								"subject": "test"
+<!--							'subject': $("#subject").getValue(),-->
+<!--							content: $("#content").getValue()-->
+						},
+						success: function (data) {
+							console.log("success");
+						},
+						error: function () {
+							console.log("fail");
+						}
+					});
+				});
+			});
+		</script>
+
+	</body>
+</html>

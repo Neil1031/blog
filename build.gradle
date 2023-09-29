@@ -16,6 +16,7 @@ repositories {
 dependencies {
     testImplementation group: 'junit', name: 'junit', version: '4.12'
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 //    implementation group: 'org.springframework', name: 'spring-web', version: '5.2.19.RELEASE'
     implementation 'com.oracle.ojdbc:ojdbc8:19.3.0.0'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
